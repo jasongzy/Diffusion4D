@@ -28,7 +28,7 @@ We collect a large-scale, high-quality dynamic 3D(4D) dataset sourced from the v
 3. [Rendered objaverse-1.0 4D images](https://huggingface.co/datasets/hw-liang/Diffusion4D/tree/main/objaverse1.0_curated) and [Rendered objaverse-xl 4D images](https://huggingface.co/datasets/hw-liang/Diffusion4D/tree/main/objaverseXL_curated) by our team to save you GPU time. With 8 GPUs and a total of 16 threads, it took **5.5 days** to render the curated objaverse-1.0 dataset and about **30 days** for objaverse-xl dataset. 
 
 ### 4D Dataset ID/Metadata
-We first collect 365k dynamic 3D assets from Objaverse-1.0 (42k) and Objaverse-xl (323k). Then we curate a high-quality subset (11k from Objaverse-1.0 and 70k from Objaverse-xl) to train our models. 
+We first collect 365k dynamic 3D assets from Objaverse-1.0 (42k) and Objaverse-xl (323k). Then we curate a high-quality subset to train our models. 
 
 The uncurated 42k IDs of all the animated objects from objaverse-1.0 are in `rendering/src/ObjV1_all_animated.txt`. The curated 11k IDs of the animated objects from objaverse-1.0 are in  `rendering/src/ObjV1_curated.txt`. 
 
